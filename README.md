@@ -37,8 +37,8 @@ pre-processed CSV. Each triple is `{"source": ..., "relationship": ...,
 - Model: `gemini-1.5-flash-latest`  
 - Decoding: default parameters; safety thresholds set to BLOCK_ONLY_HIGH
 - Prompt: `prompts/gemini_extraction_prompt.txt`, used verbatim
-- Entity linking: ScispaCy `<VERSION>`, model `<en_core_sci_sm>`,
-  linker `<kb>`, similarity threshold `<t>`, abbreviation resolution enabled
+- Entity linking: ScispaCy `v0.5.1`, model `<en_core_sci_sm>`,
+  linker `go`, similarity threshold `0.70`, abbreviation resolution enabled
 - UMLS access: UMLS REST API, requires a UTS account and licence agreement
 
 ## Filtering
