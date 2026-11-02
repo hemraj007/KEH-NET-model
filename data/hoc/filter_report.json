@@ -1,0 +1,34 @@
+{
+  "triples_in": 38439,
+  "triples_kept": 36829,
+  "triples_removed": 1610,
+  "retention_rate": 0.9581,
+  "triples_restored_by_min_per_doc": 0,
+  "removed_by_reason": {
+    "entity_too_many_words": 574,
+    "duplicate_in_document": 535,
+    "relation_too_long": 198,
+    "entity_too_many_chars": 138,
+    "stopword_entity": 92,
+    "empty_field": 27,
+    "self_loop": 21,
+    "no_alphabetic_content": 19,
+    "entity_too_short": 4,
+    "neither_entity_in_abstract": 2
+  },
+  "documents_total": 1580,
+  "documents_with_graph": 1580,
+  "documents_with_empty_graph": 0,
+  "avg_nodes_per_document": 23.2,
+  "avg_edges_per_document": 23.31,
+  "min_edges_in_a_document": 1,
+  "max_edges_in_a_document": 72,
+  "settings": {
+    "require_present": "either",
+    "max_entity_words": 6,
+    "max_entity_chars": 70,
+    "token_overlap": 0.6,
+    "duplicates_removed": true,
+    "min_per_doc": 3
+  }
+}
