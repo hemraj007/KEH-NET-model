@@ -1,0 +1,22 @@
+Extract biomedical entities and their relationships from the following PubMed abstract in a structured JSON format. Identify and categorize each entity and describe the relationships between them.
+    
+Abstract: {text}
+
+Output format:
+- Entities: List of biomedical entities
+- Relationships: List of relationships between entities
+
+Strictly follow the format of the JSON data as shown below:
+    {{
+      "entities": [
+        {{"type": "Disease", "name": "COPD"}},
+        {{"type": "Drug", "name": "Salbutamol"}},
+        {{"type": "Drug", "name": "Prednisone"}},
+        {{"type": "Symptom", "name": "shortness of breath"}}
+      ],
+      "relationships": [
+        {{"source": "COPD", "relationship": "treated with", "target": "Salbutamol"}},
+        {{"source": "COPD", "relationship": "treated with", "target": "Prednisone"}},
+        {{"source": "COPD", "relationship": "causes", "target": "shortness of breath"}}
+      ]
+    }}  

@@ -34,7 +34,7 @@ pre-processed CSV. Each triple is `{"source": ..., "relationship": ...,
 
 ## Extraction settings
 
-- Model: `gemini-1.5-flash-<VERSION>`  ← replace with the pinned version
+- Model: `gemini-1.5-flash-latest`  
 - Decoding: default parameters; safety thresholds set to BLOCK_ONLY_HIGH
 - Prompt: `prompts/gemini_extraction_prompt.txt`, used verbatim
 - Entity linking: ScispaCy `<VERSION>`, model `<en_core_sci_sm>`,
